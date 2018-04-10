@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2EE199207D21AF000BC6E3 /* ModuleAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EE198207D21AF000BC6E3 /* ModuleAnimatedTransitioning.swift */; };
 		1A35134B207BA8D000EB740A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35134A207BA8D000EB740A /* AppDelegate.swift */; };
 		1A35134D207BA8D000EB740A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35134C207BA8D000EB740A /* ViewController.swift */; };
 		1A351350207BA8D000EB740A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A35134E207BA8D000EB740A /* Main.storyboard */; };
 		1A351352207BA8D000EB740A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A351351207BA8D000EB740A /* Assets.xcassets */; };
 		1A351355207BA8D000EB740A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A351353207BA8D000EB740A /* LaunchScreen.storyboard */; };
+		1A35135D207BA91000EB740A /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35135C207BA91000EB740A /* ModalViewController.swift */; };
+		1A35135F207BA93A00EB740A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35135E207BA93A00EB740A /* CustomCell.swift */; };
+		1A351361207BA95900EB740A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A351360207BA95900EB740A /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2EE198207D21AF000BC6E3 /* ModuleAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		1A351347207BA8D000EB740A /* ModalAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A35134A207BA8D000EB740A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A35134C207BA8D000EB740A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		1A351351207BA8D000EB740A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A351354207BA8D000EB740A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A351356207BA8D000EB740A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A35135C207BA91000EB740A /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		1A35135E207BA93A00EB740A /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1A351360207BA95900EB740A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				1A351351207BA8D000EB740A /* Assets.xcassets */,
 				1A351353207BA8D000EB740A /* LaunchScreen.storyboard */,
 				1A351356207BA8D000EB740A /* Info.plist */,
+				1A35135C207BA91000EB740A /* ModalViewController.swift */,
+				1A2EE198207D21AF000BC6E3 /* ModuleAnimatedTransitioning.swift */,
+				1A35135E207BA93A00EB740A /* CustomCell.swift */,
+				1A351360207BA95900EB740A /* Helpers.swift */,
 			);
 			path = ModalAnimations;
 			sourceTree = "<group>";
@@ -137,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A35134D207BA8D000EB740A /* ViewController.swift in Sources */,
+				1A35135D207BA91000EB740A /* ModalViewController.swift in Sources */,
+				1A35135F207BA93A00EB740A /* CustomCell.swift in Sources */,
+				1A351361207BA95900EB740A /* Helpers.swift in Sources */,
+				1A2EE199207D21AF000BC6E3 /* ModuleAnimatedTransitioning.swift in Sources */,
 				1A35134B207BA8D000EB740A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
